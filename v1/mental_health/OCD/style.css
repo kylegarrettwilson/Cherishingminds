@@ -1,0 +1,51 @@
+
+input, textarea  {
+    font-size: 14px;
+}
+
+
+
+#chat-wrap{
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+
+
+
+#chat-content{
+    width: 100%;
+    text-align:left;
+    margin: 0 auto;
+
+}
+
+
+
+#chatwindow{
+    border:1px solid #aaaaaa;
+    padding:4px;
+    width: 100%;
+}
+
+
+
+
+#chatnick{
+    border: none;
+    padding:4px;
+    background:#57767F;
+    color: white;
+}
+
+
+
+
+#chatmsg{
+    width: 80%;
+    border: none;
+    padding:4px;
+    background:#57767F;
+    color: white;
+}

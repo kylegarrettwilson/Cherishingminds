@@ -2,12 +2,17 @@
 session_start(); $username = $password = $userError = $passError = '';
 if(isset($_POST['sub'])){
     $username = $_POST['username']; $password = $_POST['password'];
-    if($username === 'admin' && $password === 'password'){
+    if($username === 'kylewilson' && $password === 'kw121889'){
         $_SESSION['login'] = true; header('LOCATION:home.php'); die();
     }
     if($username !== 'admin')$userError = 'Invalid Username';
     if($password !== 'password')$passError = 'Invalid Password';
 }
+
+
+
+
+
 echo "<!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
    <head>
@@ -29,7 +34,7 @@ echo "<!DOCTYPE html>
             <div class='caption-wrapper'>
                 <div class='caption-info'>
 
-                    <img src='images/logo.jpg'>
+                    <img style=\"width: 20%;\" src='images/logo.jpg'>
 
                 </div>
             </div>

@@ -32,8 +32,20 @@
 
 
 
-<div class="navbar navbar-default navbar-fixed-top" id="top-nav">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
     <div class="container">
+
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
 
 
 
@@ -74,7 +86,7 @@
             <div class="caption-wrapper">
                 <div class="caption-info">
 
-                    <img src="images/logo.jpg">
+                    <img style="width: 20%;" src="images/logo.jpg">
 
                 </div>
             </div>
@@ -97,7 +109,7 @@
 
 
 <div id="menu"  class="container spacer about">
-    <h2 class="text-center">Welcome!</h2>
+    <h2 class="text-center" style="padding-top: 50px;">Welcome!</h2>
     <div class="row">
 
         <div class="col-sm-6">
@@ -356,7 +368,7 @@
         <figcaption>
             <h2>ADD/ADHD</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/ADD/ADD.php">Learn More</a></p>
+                <a href="mental_health/ADD/ADD.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -365,7 +377,7 @@
         <figcaption>
             <h2>Anxiety</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/anxiety/anxiety.php">Learn More</a></p>
+                <a href="mental_health/anxiety/anxiety.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -374,7 +386,7 @@
         <figcaption>
             <h2>Bipolar</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/bipolar/bipolar.php">Learn More</a></p>
+                <a href="mental_health/bipolar/bipolar.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -385,7 +397,7 @@
         <figcaption>
             <h2>Depression</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/depression/depression.php">Learn More</a></p>
+                <a href="mental_health/depression/depression.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -396,7 +408,7 @@
         <figcaption>
             <h2>Eating Disorders</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/eating/eating.php">Learn More</a></p>
+                <a href="mental_health/eating/eating.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -407,7 +419,7 @@
         <figcaption>
             <h2>OCD</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/OCD/OCD.php">Learn More</a></p>
+                <a href="mental_health/OCD/OCD.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -418,7 +430,7 @@
         <figcaption>
             <h2>Post-Partum</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/postpartum/post-partum.php">Learn More</a></p>
+                <a href="mental_health/postpartum/post-partum.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -429,7 +441,7 @@
         <figcaption>
             <h2>PTSD</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/PTSD/PTSD.php">Learn More</a></p>
+                <a href="mental_health/PTSD/PTSD.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -440,7 +452,7 @@
         <figcaption>
             <h2>Schizophrenia</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/schizo/schizo.php">Learn More</a></p>
+                <a href="mental_health/schizo/schizo.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -451,7 +463,7 @@
         <figcaption>
             <h2>Substance Abuse</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/substance/substance.php">Learn More</a></p>
+                <a href="mental_health/substance/substance.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -462,7 +474,7 @@
         <figcaption>
             <h2>SAD</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/SAD/SAD.php">Learn More</a></p>
+                <a href="mental_health/SAD/SAD.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -473,7 +485,7 @@
         <figcaption>
             <h2>Social Anxiety</h2>
             <p>The community is waiting for you<br>
-                <a href="mental_health/socialanxiety/social-anxiety.php">Learn More</a></p>
+                <a href="mental_health/socialanxiety/social-anxiety.php">Enter</a></p>
         </figcaption>
     </figure>
 
@@ -484,9 +496,11 @@
 </div>
 
 
+<div id="seek-help"></div>
 
 
-<div>
+
+<div id="contact">
     <?php include('contact.php');?>
 </div>
 

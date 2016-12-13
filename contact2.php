@@ -12,7 +12,7 @@ echo "<div class=\"row text-center\">";
 echo "<h1>Emergency Hotline Phone Numbers</h1>";
 
 
-echo "<ul>
+echo "<ul style='width: 92%'>
                     <li><b>National Center for PTSD</b> <br><h4><a href='tel:1-800-273-8255'>1-800-273-8255</a></h4> </li>
                     
                     <li><b>National Childhelp Child Abuse</b>  <br><h4> <a href='tel:1-800-422-4453'>1-800-422-4453</a></h4></li>

@@ -49,3 +49,28 @@ input, textarea  {
     background:#57767F;
     color: white;
 }
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #chat-wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #chat-wrap p{
+        width: 90%;
+    }
+
+    #chatmsg{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+}
